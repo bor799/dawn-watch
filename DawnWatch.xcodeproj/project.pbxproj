@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0000000000000000000101 /* DawnWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000016 /* DawnWatchApp.swift */; };
+		1A0000000000000000000102 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000021 /* HomeView.swift */; };
+		1A0000000000000000000103 /* BreathSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000022 /* BreathSessionView.swift */; };
+		1A0000000000000000000104 /* AlarmSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000023 /* AlarmSetupView.swift */; };
+		1A0000000000000000000105 /* HealthSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000024 /* HealthSummaryView.swift */; };
+		1A0000000000000000000106 /* MorningFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000025 /* MorningFeedbackView.swift */; };
+		1A0000000000000000000107 /* BreathEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000031 /* BreathEngine.swift */; };
+		1A0000000000000000000108 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000032 /* HealthStore.swift */; };
+		1A0000000000000000000109 /* MotionSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000033 /* MotionSampler.swift */; };
+		1A000000000000000000010A /* MotionAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000034 /* MotionAnalysis.swift */; };
+		1A000000000000000000010B /* AlarmCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000035 /* AlarmCoordinator.swift */; };
+		1A000000000000000000010C /* WakePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000036 /* WakePolicy.swift */; };
+		1A000000000000000000010D /* ExperimentLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000037 /* ExperimentLogger.swift */; };
+		1A000000000000000000010E /* BreathPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000041 /* BreathPattern.swift */; };
+		1A000000000000000000010F /* AlarmSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000042 /* AlarmSettings.swift */; };
+		1A0000000000000000000110 /* ExperimentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000043 /* ExperimentEvent.swift */; };
+		1A0000000000000000000111 /* SleepInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000044 /* SleepInsight.swift */; };
+		1A0000000000000000000118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000000000000000000017 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A000000000000000000000E /* DawnWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawnWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0000000000000000000016 /* DawnWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnWatchApp.swift; sourceTree = "<group>"; };
+		1A0000000000000000000017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A0000000000000000000018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0000000000000000000019 /* DawnWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DawnWatch.entitlements; sourceTree = "<group>"; };
+		1A0000000000000000000021 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000022 /* BreathSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathSessionView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000023 /* AlarmSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSetupView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000024 /* HealthSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSummaryView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000025 /* MorningFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningFeedbackView.swift; sourceTree = "<group>"; };
+		1A0000000000000000000031 /* BreathEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathEngine.swift; sourceTree = "<group>"; };
+		1A0000000000000000000032 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		1A0000000000000000000033 /* MotionSampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSampler.swift; sourceTree = "<group>"; };
+		1A0000000000000000000034 /* MotionAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnalysis.swift; sourceTree = "<group>"; };
+		1A0000000000000000000035 /* AlarmCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCoordinator.swift; sourceTree = "<group>"; };
+		1A0000000000000000000036 /* WakePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakePolicy.swift; sourceTree = "<group>"; };
+		1A0000000000000000000037 /* ExperimentLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentLogger.swift; sourceTree = "<group>"; };
+		1A0000000000000000000041 /* BreathPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathPattern.swift; sourceTree = "<group>"; };
+		1A0000000000000000000042 /* AlarmSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSettings.swift; sourceTree = "<group>"; };
+		1A0000000000000000000043 /* ExperimentEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentEvent.swift; sourceTree = "<group>"; };
+		1A0000000000000000000044 /* SleepInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepInsight.swift; sourceTree = "<group>"; };
+		1A0000000000000000000051 /* SPEC.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = SPEC.md; sourceTree = "<group>"; };
+		1A0000000000000000000052 /* TEST_PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = TEST_PLAN.md; sourceTree = "<group>"; };
+		1A0000000000000000000053 /* API_FACTS.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = API_FACTS.md; sourceTree = "<group>"; };
+		1A0000000000000000000054 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1A0000000000000000000055 /* TestsMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsMain.swift; sourceTree = "<group>"; };
+		1A0000000000000000000056 /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A000000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000054 /* README.md */,
+				1A0000000000000000000010 /* DawnWatch */,
+				1A0000000000000000000014 /* docs */,
+				1A0000000000000000000015 /* logic-check */,
+				1A000000000000000000000D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A000000000000000000000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A000000000000000000000E /* DawnWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000010 /* DawnWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000016 /* DawnWatchApp.swift */,
+				1A0000000000000000000011 /* Views */,
+				1A0000000000000000000012 /* Services */,
+				1A0000000000000000000013 /* Models */,
+				1A0000000000000000000017 /* Assets.xcassets */,
+				1A0000000000000000000018 /* Info.plist */,
+				1A0000000000000000000019 /* DawnWatch.entitlements */,
+			);
+			path = DawnWatch;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000011 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000021 /* HomeView.swift */,
+				1A0000000000000000000022 /* BreathSessionView.swift */,
+				1A0000000000000000000023 /* AlarmSetupView.swift */,
+				1A0000000000000000000024 /* HealthSummaryView.swift */,
+				1A0000000000000000000025 /* MorningFeedbackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000031 /* BreathEngine.swift */,
+				1A0000000000000000000032 /* HealthStore.swift */,
+				1A0000000000000000000033 /* MotionSampler.swift */,
+				1A0000000000000000000034 /* MotionAnalysis.swift */,
+				1A0000000000000000000035 /* AlarmCoordinator.swift */,
+				1A0000000000000000000036 /* WakePolicy.swift */,
+				1A0000000000000000000037 /* ExperimentLogger.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000041 /* BreathPattern.swift */,
+				1A0000000000000000000042 /* AlarmSettings.swift */,
+				1A0000000000000000000043 /* ExperimentEvent.swift */,
+				1A0000000000000000000044 /* SleepInsight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000014 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000051 /* SPEC.md */,
+				1A0000000000000000000052 /* TEST_PLAN.md */,
+				1A0000000000000000000053 /* API_FACTS.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		1A0000000000000000000015 /* logic-check */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000000000000000000055 /* TestsMain.swift */,
+				1A0000000000000000000056 /* run.sh */,
+			);
+			path = "logic-check";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A0000000000000000000003 /* DawnWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000000000000000000005 /* Build configuration list for PBXNativeTarget "DawnWatch" */;
+			buildPhases = (
+				1A000000000000000000000A /* Sources */,
+				1A000000000000000000000B /* Frameworks */,
+				1A000000000000000000000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DawnWatch;
+			packageName = "";
+			productName = DawnWatch;
+			productReference = 1A000000000000000000000E /* DawnWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				TargetAttributes = {
+					1A0000000000000000000003 = {
+						CreatedOnToolsVersion = 15.0;
+						SystemCapabilities = {
+							HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1A0000000000000000000004 /* Build configuration list for PBXProject "DawnWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh-Hans,
+			);
+			mainGroup = 1A0000000000000000000002;
+			productRefGroup = 1A000000000000000000000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A0000000000000000000003 /* DawnWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A000000000000000000000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000000000000000000118 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A000000000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000000000000000000101 /* DawnWatchApp.swift in Sources */,
+				1A0000000000000000000102 /* HomeView.swift in Sources */,
+				1A0000000000000000000103 /* BreathSessionView.swift in Sources */,
+				1A0000000000000000000104 /* AlarmSetupView.swift in Sources */,
+				1A0000000000000000000105 /* HealthSummaryView.swift in Sources */,
+				1A0000000000000000000106 /* MorningFeedbackView.swift in Sources */,
+				1A0000000000000000000107 /* BreathEngine.swift in Sources */,
+				1A0000000000000000000108 /* HealthStore.swift in Sources */,
+				1A0000000000000000000109 /* MotionSampler.swift in Sources */,
+				1A000000000000000000010A /* MotionAnalysis.swift in Sources */,
+				1A000000000000000000010B /* AlarmCoordinator.swift in Sources */,
+				1A000000000000000000010C /* WakePolicy.swift in Sources */,
+				1A000000000000000000010D /* ExperimentLogger.swift in Sources */,
+				1A000000000000000000010E /* BreathPattern.swift in Sources */,
+				1A000000000000000000010F /* AlarmSettings.swift in Sources */,
+				1A0000000000000000000110 /* ExperimentEvent.swift in Sources */,
+				1A0000000000000000000111 /* SleepInsight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A0000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEFAULT_KIT = watch;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEFAULT_KIT = watch;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0000000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DawnWatch/DawnWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DawnWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murphy.dawnwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = watchos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+				WK_WATCH_ONLY = YES;
+			};
+			name = Debug;
+		};
+		1A0000000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DawnWatch/DawnWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DawnWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murphy.dawnwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = watchos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+				WK_WATCH_ONLY = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0000000000000000000004 /* Build configuration list for PBXProject "DawnWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000000000000000000006 /* Debug */,
+				1A0000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0000000000000000000005 /* Build configuration list for PBXNativeTarget "DawnWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000000000000000000008 /* Debug */,
+				1A0000000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0000000000000000000001 /* Project object */;
+}
